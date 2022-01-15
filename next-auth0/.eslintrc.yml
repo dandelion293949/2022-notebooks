@@ -1,0 +1,10 @@
+extends:
+  - "next"
+  - "next/core-web-vitals"
+  - "@dandelion293949"
+  - "prettier"
+rules:
+  "no-magic-numbers":
+    - "error"
+    - "ignoreArrayIndexes": true
+      "ignoreDefaultValues": true

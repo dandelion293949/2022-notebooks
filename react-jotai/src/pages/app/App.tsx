@@ -1,9 +1,11 @@
-import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import { atom, useAtom } from 'jotai'
+
+const countAtom = atom(0)
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useAtom(countAtom)
 
   return (
     <div className="App">

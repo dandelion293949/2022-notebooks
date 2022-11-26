@@ -18,7 +18,7 @@ importers:
       '@dandelion293949/eslint-config': ^0.0.1
       '@types/node': ^18.0.0
       '@types/react': ^17.0.52
-      '@types/react-dom': ^17.0.18
+      '@types/react-dom': ^18.0.0
       autoprefixer: ^10.4.13
       eslint: ^8.28.0
       eslint-config-next: ^12.3.4
@@ -40,7 +40,7 @@ importers:
       '@dandelion293949/eslint-config': 0.0.1_eslint@8.28.0
       '@types/node': 18.11.9
       '@types/react': 17.0.52
-      '@types/react-dom': 17.0.18
+      '@types/react-dom': 18.0.9
       autoprefixer: 10.4.13_postcss@8.4.19
       eslint: 8.28.0
       eslint-config-next: 12.3.4_hsf322ms6xhhd4b5ne6lb74y4a
@@ -53,7 +53,7 @@ importers:
   workspaces/react-jotai:
     specifiers:
       '@types/react': ^17.0.52
-      '@types/react-dom': ^17.0.18
+      '@types/react-dom': ^18.0.0
       '@vitejs/plugin-react': ^2.0.0
       jotai: ^1.10.0
       react: ^17.0.2
@@ -66,8 +66,8 @@ importers:
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
       '@types/react': 17.0.52
-      '@types/react-dom': 17.0.18
-      '@vitejs/plugin-react': 2.2.0_vite@2.9.15
+      '@types/react-dom': 18.0.9
+      '@vitejs/plugin-react': 2.2.0_vite@3.2.4
       typescript: 4.9.3
       vite: 3.2.4
 
@@ -788,12 +788,6 @@ packages:
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
 
-  /@types/react-dom/17.0.18:
-    resolution: {integrity: sha512-rLVtIfbwyur2iFKykP2w0pl/1unw26b5td16d5xMgp7/yjTHomkyxPYChFoCr/FtEX1lN9wY6lFj1qvKdS5kDw==}
-    dependencies:
-      '@types/react': 17.0.52
-    dev: true
-
   /@types/react-dom/18.0.9:
     resolution: {integrity: sha512-qnVvHxASt/H7i+XG1U1xMiY5t+IHcPGUK7TDMDzom08xa7e86eCeKOiLZezwCKVxJn6NEiiy2ekgX8aQssjIKg==}
     dependencies:
@@ -884,24 +878,6 @@ packages:
     dependencies:
       '@typescript-eslint/types': 5.44.0
       eslint-visitor-keys: 3.3.0
-    dev: true
-
-  /@vitejs/plugin-react/2.2.0_vite@2.9.15:
-    resolution: {integrity: sha512-FFpefhvExd1toVRlokZgxgy2JtnBOdp4ZDsq7ldCWaqGSGn9UhWMAVm/1lxPL14JfNS5yGz+s9yFrQY6shoStA==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    peerDependencies:
-      vite: ^3.0.0
-    dependencies:
-      '@babel/core': 7.20.2
-      '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.20.2
-      '@babel/plugin-transform-react-jsx-development': 7.18.6_@babel+core@7.20.2
-      '@babel/plugin-transform-react-jsx-self': 7.18.6_@babel+core@7.20.2
-      '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.20.2
-      magic-string: 0.26.7
-      react-refresh: 0.14.0
-      vite: 2.9.15
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@vitejs/plugin-react/2.2.0_vite@3.2.4:

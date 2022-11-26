@@ -3,20 +3,27 @@
   "extends": [
     "config:base"
   ],
+  "schedule": [
+    "every weekend"
+  ],
+  "automergeSchedule": [
+    "at any time"
+  ],
   "prHourlyLimit": 3,
   "packageRules": [
     {
       "matchUpdateTypes": [
         "major"
       ],
-      "dependencyDashboardApproval": true
+      "dependencyDashboardApproval": true,
+      "automerge": false
     },
     {
       "matchUpdateTypes": [
         "minor",
         "patch"
-      ]
+      ],
+      "automerge": true
     }
-  ],
-  "automerge": true
+  ]
 }

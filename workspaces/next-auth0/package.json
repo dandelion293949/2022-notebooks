@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "^1.9.2",
-    "@blueprintjs/core": "^3.54.0",
-    "next": "^12.3.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "@blueprintjs/core": "^4.0.0",
+    "next": "^13.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@dandelion293949/eslint-config": "^0.0.1",

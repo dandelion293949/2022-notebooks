@@ -54,7 +54,7 @@ importers:
     specifiers:
       '@types/react': ^17.0.52
       '@types/react-dom': ^17.0.18
-      '@vitejs/plugin-react': ^1.3.2
+      '@vitejs/plugin-react': ^2.0.0
       jotai: ^1.10.0
       react: ^17.0.2
       react-dom: ^17.0.2
@@ -67,7 +67,7 @@ importers:
     devDependencies:
       '@types/react': 17.0.52
       '@types/react-dom': 17.0.18
-      '@vitejs/plugin-react': 1.3.2
+      '@vitejs/plugin-react': 2.2.0_vite@2.9.15
       typescript: 4.9.3
       vite: 3.2.4
 
@@ -719,14 +719,6 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: false
 
-  /@rollup/pluginutils/4.2.1:
-    resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
-    engines: {node: '>= 8.0.0'}
-    dependencies:
-      estree-walker: 2.0.2
-      picomatch: 2.3.1
-    dev: true
-
   /@rushstack/eslint-patch/1.2.0:
     resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
     dev: true
@@ -894,18 +886,20 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-react/1.3.2:
-    resolution: {integrity: sha512-aurBNmMo0kz1O4qRoY+FM4epSA39y3ShWGuqfLRA/3z0oEJAdtoSfgA3aO98/PCCHAqMaduLxIxErWrVKIFzXA==}
-    engines: {node: '>=12.0.0'}
+  /@vitejs/plugin-react/2.2.0_vite@2.9.15:
+    resolution: {integrity: sha512-FFpefhvExd1toVRlokZgxgy2JtnBOdp4ZDsq7ldCWaqGSGn9UhWMAVm/1lxPL14JfNS5yGz+s9yFrQY6shoStA==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    peerDependencies:
+      vite: ^3.0.0
     dependencies:
       '@babel/core': 7.20.2
       '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.20.2
       '@babel/plugin-transform-react-jsx-development': 7.18.6_@babel+core@7.20.2
       '@babel/plugin-transform-react-jsx-self': 7.18.6_@babel+core@7.20.2
       '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.20.2
-      '@rollup/pluginutils': 4.2.1
-      react-refresh: 0.13.0
-      resolve: 1.22.1
+      magic-string: 0.26.7
+      react-refresh: 0.14.0
+      vite: 2.9.15
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1990,10 +1984,6 @@ packages:
     engines: {node: '>=4.0'}
     dev: true
 
-  /estree-walker/2.0.2:
-    resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
-    dev: true
-
   /esutils/2.0.3:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
@@ -3068,11 +3058,6 @@ packages:
       typed-styles: 0.0.7
       warning: 4.0.3
     dev: false
-
-  /react-refresh/0.13.0:
-    resolution: {integrity: sha512-XP8A9BT0CpRBD+NYLLeIhld/RqG9+gktUjW1FkE+Vm7OCinbG1SshcK5tb9ls4kzvjZr9mOQc7HYgBngEyPAXg==}
-    engines: {node: '>=0.10.0'}
-    dev: true
 
   /react-refresh/0.14.0:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}

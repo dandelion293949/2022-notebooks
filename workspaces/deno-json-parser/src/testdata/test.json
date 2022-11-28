@@ -1,0 +1,18 @@
+[
+  {
+    "foo": "bar",
+    "aaa": {
+      "bbb": "ccc",
+      "num": -123
+    },
+    "arr": [
+      {
+        "name1": "alice",
+        "name2": "bob"
+      },
+      {
+        "name": ["alice", "bob"]
+      }
+    ]
+  }
+]

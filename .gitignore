@@ -1,0 +1,12 @@
+# MongoDB
+configdb
+db
+
+# nodejs
+node_modules
+build
+dist
+
+# env
+.env*
+!.env.sample

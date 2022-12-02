@@ -1,10 +1,10 @@
 import { defineConfig } from "rollup";
-import typescript from "@rollup/plugin-typescript";
+import esbuild from "rollup-plugin-esbuild";
 import { nodeResolve } from "@rollup/plugin-node-resolve";
 
 export default defineConfig({
   input: "src/types.ts",
-  plugins: [typescript(), nodeResolve()],
+  plugins: [esbuild(), nodeResolve()],
   output: [
     {
       file: "dist/bundle-types.cjs.js",

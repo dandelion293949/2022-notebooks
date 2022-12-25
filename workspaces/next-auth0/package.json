@@ -8,7 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@auth0/nextjs-auth0": "^1.9.2",
+    "@auth0/nextjs-auth0": "^2.0.0",
     "@blueprintjs/core": "^4.0.0",
     "next": "^13.0.0",
     "react": "^18.0.0",

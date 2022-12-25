@@ -98,7 +98,7 @@ importers:
     specifiers:
       '@rollup/plugin-commonjs': ^24.0.0
       '@rollup/plugin-node-resolve': ^15.0.1
-      esbuild: ^0.15.16
+      esbuild: ^0.16.0
       jsonschema: ^1.4.1
       quicktype-core: ^6.1.0
       rollup: ^3.5.0
@@ -112,9 +112,9 @@ importers:
     devDependencies:
       '@rollup/plugin-commonjs': 24.0.0_rollup@3.5.0
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.5.0
-      esbuild: 0.15.16
+      esbuild: 0.16.10
       rollup: 3.5.0
-      rollup-plugin-esbuild: 5.0.0_kvbyivc4d272hvjoaj77mmhoxa
+      rollup-plugin-esbuild: 5.0.0_ftpkm5q5zzyqzykz5qs76w5jt4
       rome: 11.0.0
       tsx: 3.12.1
       typescript: 4.9.3
@@ -3752,7 +3752,7 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-esbuild/5.0.0_kvbyivc4d272hvjoaj77mmhoxa:
+  /rollup-plugin-esbuild/5.0.0_ftpkm5q5zzyqzykz5qs76w5jt4:
     resolution: {integrity: sha512-1cRIOHAPh8WQgdQQyyvFdeOdxuiyk+zB5zJ5+YOwrZP4cJ0MT3Fs48pQxrZeyZHcn+klFherytILVfE4aYrneg==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     peerDependencies:
@@ -3762,7 +3762,7 @@ packages:
       '@rollup/pluginutils': 5.0.2_rollup@3.5.0
       debug: 4.3.4
       es-module-lexer: 1.1.0
-      esbuild: 0.15.16
+      esbuild: 0.16.10
       joycon: 3.1.1
       jsonc-parser: 3.2.0
       rollup: 3.5.0

@@ -110,11 +110,11 @@ importers:
       jsonschema: 1.4.1
       quicktype-core: 6.1.0
     devDependencies:
-      '@rollup/plugin-commonjs': 24.0.0_rollup@3.5.0
-      '@rollup/plugin-node-resolve': 15.0.1_rollup@3.5.0
+      '@rollup/plugin-commonjs': 24.0.0_rollup@3.29.5
+      '@rollup/plugin-node-resolve': 15.0.1_rollup@3.29.5
       esbuild: 0.17.0
-      rollup: 3.5.0
-      rollup-plugin-esbuild: 5.0.0_4kxt2ce4omadd7lm2k4aprgbvq
+      rollup: 3.29.5
+      rollup-plugin-esbuild: 5.0.0_nkm6tqguzikdx4ovlky5o3kedm
       rome: 11.0.0
       tsx: 3.12.1
       typescript: 4.9.3
@@ -1141,7 +1141,7 @@ packages:
       tslib: 2.4.1
     dev: true
 
-  /@rollup/plugin-commonjs/24.0.0_rollup@3.5.0:
+  /@rollup/plugin-commonjs/24.0.0_rollup@3.29.5:
     resolution: {integrity: sha512-0w0wyykzdyRRPHOb0cQt14mIBLujfAv6GgP6g8nvg/iBxEm112t3YPPq+Buqe2+imvElTka+bjNlJ/gB56TD8g==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -1150,16 +1150,16 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@3.5.0
+      '@rollup/pluginutils': 5.0.2_rollup@3.29.5
       commondir: 1.0.1
       estree-walker: 2.0.2
       glob: 8.0.3
       is-reference: 1.2.1
       magic-string: 0.27.0
-      rollup: 3.5.0
+      rollup: 3.29.5
     dev: true
 
-  /@rollup/plugin-node-resolve/15.0.1_rollup@3.5.0:
+  /@rollup/plugin-node-resolve/15.0.1_rollup@3.29.5:
     resolution: {integrity: sha512-ReY88T7JhJjeRVbfCyNj+NXAG3IIsVMsX9b5/9jC98dRP8/yxlZdz7mHZbHk5zHr24wZZICS5AcXsFZAXYUQEg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -1168,16 +1168,16 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@3.5.0
+      '@rollup/pluginutils': 5.0.2_rollup@3.29.5
       '@types/resolve': 1.20.2
       deepmerge: 4.2.2
       is-builtin-module: 3.2.0
       is-module: 1.0.0
       resolve: 1.22.1
-      rollup: 3.5.0
+      rollup: 3.29.5
     dev: true
 
-  /@rollup/pluginutils/5.0.2_rollup@3.5.0:
+  /@rollup/pluginutils/5.0.2_rollup@3.29.5:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -1189,7 +1189,7 @@ packages:
       '@types/estree': 1.0.0
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 3.5.0
+      rollup: 3.29.5
     dev: true
 
   /@rometools/cli-darwin-arm64/11.0.0:
@@ -1707,7 +1707,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /classnames/2.3.2:
@@ -2712,8 +2712,8 @@ packages:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
 
-  /fsevents/2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents/2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -3980,30 +3980,30 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-esbuild/5.0.0_4kxt2ce4omadd7lm2k4aprgbvq:
+  /rollup-plugin-esbuild/5.0.0_nkm6tqguzikdx4ovlky5o3kedm:
     resolution: {integrity: sha512-1cRIOHAPh8WQgdQQyyvFdeOdxuiyk+zB5zJ5+YOwrZP4cJ0MT3Fs48pQxrZeyZHcn+klFherytILVfE4aYrneg==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     peerDependencies:
       esbuild: '>=0.10.1'
       rollup: ^1.20.0 || ^2.0.0 || ^3.0.0
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@3.5.0
+      '@rollup/pluginutils': 5.0.2_rollup@3.29.5
       debug: 4.3.4
       es-module-lexer: 1.1.0
       esbuild: 0.17.0
       joycon: 3.1.1
       jsonc-parser: 3.2.0
-      rollup: 3.5.0
+      rollup: 3.29.5
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /rollup/3.5.0:
-    resolution: {integrity: sha512-TYu2L+TGhmNsXCtByont89u+ATQLcDy6A+++PwLXYunRtOm7XnaD+65s1pvewaOxMYR0eOkMXn9/i0saBxxpnQ==}
+  /rollup/3.29.5:
+    resolution: {integrity: sha512-GVsDdsbJzzy4S/v3dqWPJ7EfvZJfCHiDqe80IyrF59LYuP+e6U1LJoUqeuqRbwAWoMNoXivMNeNAOf5E22VA1w==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /rollup/3.7.5:
@@ -4011,7 +4011,7 @@ packages:
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /rome/11.0.0:
@@ -4389,7 +4389,7 @@ packages:
       '@esbuild-kit/core-utils': 3.0.0
       '@esbuild-kit/esm-loader': 2.5.1
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /type-check/0.3.2:
@@ -4532,7 +4532,7 @@ packages:
       resolve: 1.22.1
       rollup: 3.7.5
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /vlq/0.2.3:
